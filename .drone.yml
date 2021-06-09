@@ -7,19 +7,13 @@ steps:
   image: python
   commands:
   - pip install numpy
-  - pip install python-math
 
-- name: testing
+- name: ui-testing
   image: python
   commands:
   - python --version
 
-- name: another testing
+- name: back-testing
   image: python
   commands:
   - pip --version
-
-- name: greeting
-  image: python
-  commands:
-  - python ./1.py
