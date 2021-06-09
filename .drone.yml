@@ -16,4 +16,4 @@ steps:
 - name: back-testing
   image: python
   commands:
-  - pip --version
+  - python ./1.py
